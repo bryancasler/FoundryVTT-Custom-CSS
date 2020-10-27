@@ -2,7 +2,7 @@
   "name": "custom-css",
   "title": "Custom CSS",
   "description": "Add custom CSS to your world",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "minimumCoreVersion": "0.6.0",
   "compatibleCoreVersion": "0.7.5",
   "author": "Bryan Casler <bryan.casler@gmail.com>",
@@ -24,5 +24,5 @@
   ],
   "url": "https://github.com/bryancasler/FoundryVTT-Custom-CSS",
   "manifest": "https://github.com/bryancasler/FoundryVTT-Custom-CSS/releases/download/latest/module.json",
-  "download": "https://github.com/bryancasler/FoundryVTT-Custom-CSS/releases/download/latest/module.zip"
+  "download": "https://github.com/bryancasler/FoundryVTT-Custom-CSS/releases/download/v1.0.1/module.zip"
 }
