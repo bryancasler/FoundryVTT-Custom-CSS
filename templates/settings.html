@@ -4,7 +4,7 @@
             {{#each folders}}
             <h2 class="form-group list-group-item" data-id="folder{{this.index}}">
                 <i class="fas fa-arrows-alt handle"></i>
-                <input name="folder{{this.index}}" type="text" value="{{this.value}}" />
+                <textarea name="folder{{this.index}}">{{this.value}}</textarea>
                 <i class="fas fa-trash folder-delete" data-folderid="{{this.index}}" style="font-size: 16px;"></i>
             </h2>
             {{/each}}
@@ -13,7 +13,7 @@
             <div class="form-group list-group-item" data-id="rule{{this.index}}">
                 <i class="fas fa-arrows-alt handle"></i>
                 <!-- <label>Rule {{this.index}}</label> -->
-                <input name="rule{{this.index}}" class="rule" type="text" value="{{this.value}}" />
+                <textarea name="rule{{this.index}}" class="rule">{{this.value}}</textarea>
                 <i class="fas fa-trash rule-delete" data-ruleid="{{this.index}}"></i>
             </div>
             {{/each}}
